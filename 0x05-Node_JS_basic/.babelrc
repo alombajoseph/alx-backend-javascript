@@ -1,0 +1,2 @@
+ets": [["env", {"exclude": ["transform-regenerator"]}]]
+}
