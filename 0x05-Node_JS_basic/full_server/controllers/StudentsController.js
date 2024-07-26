@@ -7,7 +7,7 @@ const VALID_MAJORS = ['CS', 'SWE'];
 
 /**
  * Contains the student-related route handlers.
- * @author <alombajoseph https://github.com/alombajoseph>
+ * @author alombajoseph <https://github.com/alombajoseph>
  */
 class StudentsController {
   static getAllStudents(request, response) {

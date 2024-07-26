@@ -1,9 +1,8 @@
-
- deJS Basics
-has the following tasks
+0x05. NodeJS Basics
 Tasks
 0. Executing basic javascript with Node JS
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 In the file 0-console.js, create a function named displayMessage that prints in STDOUT the string argument.
 
 bob@dylan:~$ cat 0-main.js
@@ -19,9 +18,10 @@ Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: 0-console.js
-  
+   
 1. Using Process stdin
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Create a program named 1-stdin.js that will be executed through command line:
 
 It should display the message Welcome to Holberton School, what is your name? (followed by a new line)
@@ -46,9 +46,10 @@ Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: 1-stdin.js
-  
+   
 2. Reading a file synchronously with Node JS
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Using the database database.csv (provided in project description), create a function countStudents in the file 2-read_file.js
 
 Create a function named countStudents. It should accept a path in argument
@@ -85,9 +86,10 @@ Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: 2-read_file.js
-  
+   
 3. Reading a file asynchronously with Node JS
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Using the database database.csv (provided in project description), create a function countStudents in the file 3-read_file_async.js
 
 Create a function named countStudents. It should accept a path in argument (same as in 2-read_file.js)
@@ -139,9 +141,10 @@ Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: 3-read_file_async.js
-  
+   
 4. Create a small HTTP server using Node's HTTP module
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 In a file named 4-http.js, create a small HTTP server using the http module:
 
 It should be assigned to the variable app and this one must be exported
@@ -164,9 +167,10 @@ Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: 4-http.js
-  
+   
 5. Create a more complex HTTP server using Node's HTTP module
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 In a file named 5-http.js, create a small HTTP server using the http module:
 
 It should be assigned to the variable app and this one must be exported
@@ -195,9 +199,10 @@ Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: 5-http.js
-  
+   
 6. Create a small HTTP server using Express
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Install Express and in a file named 6-http_express.js, create a small HTTP server using Express module:
 
 It should be assigned to the variable app and this one must be exported
@@ -229,9 +234,10 @@ Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: 6-http_express.js
-  
+   
 7. Create a more complex HTTP server using Express
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 In a file named 7-http_express.js, recreate the small HTTP server using Express:
 
 It should be assigned to the variable app and this one must be exported
@@ -260,9 +266,10 @@ Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: 7-http_express.js
-  
+   
 8. Organize a complex HTTP server using Express
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Obviously writing every part of a server within a single file is not sustainable. Let’s create a full server in a directory named full_server.
 
 Since you have used ES6 and Babel in the past projects, let’s use babel-node to allow to use ES6 functions like import or export.
@@ -359,3 +366,5 @@ Repo:
 GitHub repository: alx-backend-javascript
 Directory: 0x05-Node_JS_basic
 File: full_server/utils.js, full_server/controllers/AppController.js, full_server/controllers/StudentsController.js, full_server/routes/index.js, full_server/server.js
+   
+

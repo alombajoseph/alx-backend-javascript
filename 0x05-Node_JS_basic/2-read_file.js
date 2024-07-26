@@ -1,4 +1,4 @@
-t fs = require('fs');
+const fs = require('fs');
 
 /**
  * Counts the students in a CSV data file.

@@ -1,4 +1,4 @@
-t http = require('http');
+const http = require('http');
 
 const PORT = 1245;
 const HOST = 'localhost';

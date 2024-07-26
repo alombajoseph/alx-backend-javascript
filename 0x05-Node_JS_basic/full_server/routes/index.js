@@ -1,4 +1,4 @@
-mport AppController from '../controllers/AppController';
+import AppController from '../controllers/AppController';
 import StudentsController from '../controllers/StudentsController';
 
 /**
